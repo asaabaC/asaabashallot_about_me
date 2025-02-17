@@ -1,0 +1,42 @@
+/* About.css */
+.about-container {
+  padding: 20px;
+  background-color: #f4efe6; /* Cream background for content */
+  color: #333; /* Dark text for readability */
+}
+
+.about-container h1 {
+  color: #0e0f0f; /* Dark color for the page title */
+}
+
+.about-container h2 {
+  color: #0f0f0e; /* Slightly darker color for section titles */
+}
+
+.about-container p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.about-container img {
+  width: 40%;
+  max-width: 700px; /* Larger image size for better display */
+  border-radius: 15px; /* Rounded corners for the image */
+  margin: 20px auto;
+  display: block;
+  object-fit: cover;
+  height: auto; /* Maintain aspect ratio */
+}
+
+.image-container {
+  text-align: center;
+  margin-top: 20px; /* Space above the image */
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #a6a1a1; /* Dark footer background */
+  color: rgb(234, 226, 226);
+  padding: 10px;
+}
