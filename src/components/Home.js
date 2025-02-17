@@ -10,7 +10,7 @@ const Home = () => {
         <p>Computer Science Student | Developer | Empowering Women in Tech</p>
         {/* Adding the image */}
         <img
-          src="/5D5A9247.JPG" // This points to the image in the public folder
+          src="/a4ad072a7f91a6ae589b4cdfc3f9bda4.jpg" // This points to the image in the public folder
           alt="Asaaba Shallot"
           className="profile-image" // Class for oval shape
         />
