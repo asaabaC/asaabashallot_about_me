@@ -9,9 +9,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
+  max-width: 800px; /* Keeps the header balanced */
+  margin: 0 auto; /* Centers the header content */
+  padding: 0 20px; /* Adds slight padding for balance */
 }
 
 .logo {

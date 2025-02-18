@@ -1,42 +1,51 @@
 /* About.css */
 .about-container {
-  padding: 20px;
   background-color: #f4efe6; /* Cream background for content */
-  color: #333; /* Dark text for readability */
+  color: #8b4513; /* Dark text for readability */
+  padding: 20px;
+  max-width: 800px; /* Ensures balanced margins */
+  margin: 0 auto; /* Centers the content */
 }
 
+/* Headings styling */
 .about-container h1 {
-  color: #0e0f0f; /* Dark color for the page title */
+  color: #8b4513;
+  text-align: center;
 }
 
 .about-container h2 {
-  color: #0f0f0e; /* Slightly darker color for section titles */
+  color: #0f0f0e;
+  text-align: center;
 }
 
+/* Paragraph text styling */
 .about-container p {
   font-size: 1rem;
   line-height: 1.6;
+  text-align: justify; /* Makes text well-structured */
 }
 
+/* Image styling */
 .about-container img {
   width: 40%;
-  max-width: 700px; /* Larger image size for better display */
-  border-radius: 15px; /* Rounded corners for the image */
+  max-width: 700px;
+  border-radius: 15px;
   margin: 20px auto;
   display: block;
   object-fit: cover;
-  height: auto; /* Maintain aspect ratio */
 }
 
+/* Image container */
 .image-container {
   text-align: center;
-  margin-top: 20px; /* Space above the image */
+  margin-top: 20px;
 }
 
+/* Footer styling */
 footer {
-  margin-top: 20px;
   text-align: center;
-  background-color: #a6a1a1; /* Dark footer background */
+  margin-top: 20px;
+  background-color: #a6a1a1;
   color: rgb(234, 226, 226);
   padding: 10px;
 }

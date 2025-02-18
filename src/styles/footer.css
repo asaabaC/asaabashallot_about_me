@@ -3,13 +3,13 @@
   background-color: #fce1ad; /* Turquoise */
   color: #121110; /* Cream */
   text-align: center;
-  padding: 20px 10px;
+  padding: 20px;
   font-family: 'Arial', sans-serif;
 }
 
 .footer-content {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 800px; /* Keeps content within balanced margins */
+  margin: 0 auto; /* Centers the footer content */
 }
 
 .footer p {

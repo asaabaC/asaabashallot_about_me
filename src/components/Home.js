@@ -8,11 +8,10 @@ const Home = () => {
       <header>
         <h1>Welcome to Asaaba Shallot's Website</h1>
         <p>Computer Science Student | Developer | Empowering Women in Tech</p>
-        {/* Adding the image */}
         <img
           src="/a4ad072a7f91a6ae589b4cdfc3f9bda4.jpg" // This points to the image in the public folder
           alt="Asaaba Shallot"
-          className="profile-image" // Class for oval shape
+          className="profile-image"
         />
       </header>
 
@@ -28,6 +27,17 @@ const Home = () => {
           <li>Sentiment Analysis of Social Media Posts</li>
           <li>Website for Arise, Love, and Serve Africa (ALSA)</li>
           <li>Innerman Pre and Primary School Web System</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Languages & Skills</h2>
+        <ul>
+          <li><strong>Programming Languages:</strong> Python, JavaScript, SQL, HTML, CSS</li>
+          <li><strong>Frameworks & Libraries:</strong> Flask, React.js, Bootstrap</li>
+          <li><strong>Database Management:</strong> MySQL</li>
+          <li><strong>Development Tools:</strong> Git, VS Code, Postman</li>
+          <li><strong>Other Skills:</strong> API Development, Problem-Solving, Debugging</li>
         </ul>
       </section>
 

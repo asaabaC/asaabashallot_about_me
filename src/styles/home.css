@@ -1,9 +1,18 @@
 /* Home.css */
 .home-container {
-  background-color: #f7f5f3; /* Wheat (or use #f0e68c for cream) */
+  background-color: #f7f5f3; /* Wheat */
   color: #8b4513; /* Brown */
   padding: 20px;
   font-family: Arial, sans-serif;
+  max-width: 800px; /* Ensures content does not stretch too wide */
+  margin: 0 auto; /* Centers the content with balanced left/right space */
+}
+
+/* Set headings and subheadings to black */
+.home-container h1,
+.home-container h2 {
+  color: #000; /* Black */
+  text-align: center; /* Center-align headings */
 }
 
 .home-container header h1 {
@@ -12,13 +21,24 @@
 
 .home-container section {
   margin-top: 20px;
+  text-align: center; /* Center text for balance */
 }
 
 /* Larger oval image styling */
 .profile-image {
-  width: 300px; /* Increased width */
-  height: 500px; /* Increased height */
-  border-radius: 50%; /* Maintain oval shape */
-  object-fit: cover; /* Ensure image is properly fitted without stretching */
-  margin-top: 20px; /* Adds some space around the image */
+  width: 300px;
+  height: 500px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto; /* Center the image */
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #a6a1a1;
+  color: rgb(234, 226, 226);
 }
