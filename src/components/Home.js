@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <header>
-        <h1>Welcome to Asaaba Shallot's Website</h1>
+        <h1>Asaaba Shallot's Potifolio</h1>
         <p>Computer Science Student | Developer | Empowering Women in Tech</p>
         <img
           src="/a4ad072a7f91a6ae589b4cdfc3f9bda4.jpg" // This points to the image in the public folder
@@ -16,7 +16,7 @@ const Home = () => {
       </header>
 
       <section>
-        <h2>About Me</h2>
+        
         <p>Learn more about my journey and the projects I am passionate about.</p>
         <Link to="/about">Read More</Link>
       </section>

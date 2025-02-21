@@ -1,31 +1,37 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './components/Home';  // Make sure file name is "Home.js" (capital 'H')
-import AboutMe from './components/AboutMe';  // Correct case "AboutMe.js"
-import Header from './components/Header';  // Correct case "Header.js"
-import Footer from './components/Footer';  // Correct case "Footer.js"
-import './App.css';  // Import from the src folder
-
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import Home from './components/Home';  // Ensure correct file name and path
+import AboutMe from './components/AboutMe';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import './App.css';
 
 const App = () => {
   return (
     <Router>
-      <div className="App">
-        {/* Header section */}
-        <Header />
-
-        <main>
-          {/* Define routes for Home and AboutMe pages */}
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<AboutMe />} />
-          </Routes>
-        </main>
-
-        {/* Footer section */}
-        <Footer />
-      </div>
+      <MainLayout />
     </Router>
+  );
+};
+
+const MainLayout = () => {
+  const location = useLocation();
+
+  return (
+    <div className="App">
+      {/* Render Header only on the Home page */}
+      {location.pathname === '/' && <Header />}
+
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutMe />} />
+        </Routes>
+      </main>
+
+      {/* Footer section remains on all pages */}
+      <Footer />
+    </div>
   );
 };
 

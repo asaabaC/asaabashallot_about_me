@@ -13,11 +13,11 @@ const AboutMe = () => {
       </div>
 
       <section className="about-section">
+      <h1>Who is Shallot?</h1>
         <p>
-          As the firstborn of three, I've taken pride in supporting my siblings with their education,
-          providing them with scholastic materials and food. My determination to never settle for
-          less is fueled by my experiences, including being raised by a single mom who was partially
-          in my life.
+        I am the firstborn of three and strongly believe that children raised by single parents can also thrive. 
+        With this belief, I have stood firm in supporting my siblings by providing them with education, scholastic materials, and food.
+        My determination to never settle for less is fueled by my experiences, including being raised by a single mother who was partially present in my life.
         </p>
 
         <h2>Academic and Career Achievements</h2>
