@@ -25,8 +25,16 @@ const Home = () => {
         <h2>My Projects</h2>
         <ul>
           <li>Sentiment Analysis of Social Media Posts</li>
-          <li>Website for Arise, Love, and Serve Africa (ALSA)</li>
-          <li>Innerman Pre and Primary School Web System</li>
+          <li>
+            <a href="https://ariseloveandserve.org/" target="_blank" rel="noopener noreferrer">
+              Website for Arise, Love, and Serve Africa (ALSA)
+            </a>
+          </li>
+          <li>
+            <a href="https://innermanpreandprimary.ac.ug/" target="_blank" rel="noopener noreferrer">
+              Innerman Pre and Primary School Web System
+            </a>
+          </li>
         </ul>
       </section>
 
